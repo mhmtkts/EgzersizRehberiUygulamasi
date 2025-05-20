@@ -1,6 +1,6 @@
 # Egzersiz Rehberi Uygulaması
 
-![Egzersiz Rehberi](\src\assets\logo\logo.png)
+![Egzersiz Rehberi](\egzersiz-rehberi-uygulamasi\src\assets\logo\logo.png)
 
 ## 📱 Proje Tanımı
 
