@@ -1,6 +1,6 @@
 # Egzersiz Rehberi Uygulaması
 
-![Egzersiz Rehberi](\egzersiz-rehberi-uygulamasi\src\assets\logo\logo.png)
+![Egzersiz Rehberi](.\egzersiz-rehberi-uygulamasi\src\assets\logo\logo.png)
 
 ## 📱 Proje Tanımı
 
@@ -73,7 +73,7 @@ egzersiz-rehberi-uygulamasi/
 
 ## 📱 Ekran Görüntüleri
 
-![Ana Sayfa](\egzersiz-rehberi-uygulamasi\src\assets\screenshots\HomePage.jpg)
-![Egzersizler Sayfası](\egzersiz-rehberi-uygulamasi\src\assets\screenshots\Exercises.jpg)
-![Egzersiz Detay](\egzersiz-rehberi-uygulamasi\src\assets\screenshots\ExerciseDetail.jpg)
-![Favoriler](\egzersiz-rehberi-uygulamasi\src\assets\screenshots\Favorites.jpg)
+![Ana Sayfa](.\egzersiz-rehberi-uygulamasi\src\assets\screenshots\HomePage.jpg)
+![Egzersizler Sayfası](.\egzersiz-rehberi-uygulamasi\src\assets\screenshots\Exercises.jpg)
+![Egzersiz Detay](.\egzersiz-rehberi-uygulamasi\src\assets\screenshots\ExerciseDetail.jpg)
+![Favoriler](.\egzersiz-rehberi-uygulamasi\src\assets\screenshots\Favorites.jpg)
