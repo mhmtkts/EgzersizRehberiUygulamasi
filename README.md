@@ -1,7 +1,5 @@
 # Egzersiz Rehberi Uygulaması
 
-![Egzersiz Rehberi](.\egzersiz-rehberi-uygulamasi\src\assets\logo\logo.png)
-
 ## 📱 Proje Tanımı
 
 Egzersiz Rehberi, kullanıcılara kapsamlı bir fitness deneyimi sunan modern bir web uygulamasıdır. Yüzlerce farklı egzersizi detaylı açıklamalar, animasyonlu görseller ve hedef kas bilgileriyle sunar. Vücut bölgelerine göre egzersizleri keşfedebilir, arama yapabilir ve favori egzersizlerinizi kaydedebilirsiniz.
@@ -70,10 +68,3 @@ egzersiz-rehberi-uygulamasi/
 ├── tsconfig.json           # TypeScript yapılandırması
 └── vite.config.ts          # Vite yapılandırması
 ```
-
-## 📱 Ekran Görüntüleri
-
-![Ana Sayfa](.\egzersiz-rehberi-uygulamasi\src\assets\screenshots\HomePage.jpg)
-![Egzersizler Sayfası](.\egzersiz-rehberi-uygulamasi\src\assets\screenshots\Exercises.jpg)
-![Egzersiz Detay](.\egzersiz-rehberi-uygulamasi\src\assets\screenshots\ExerciseDetail.jpg)
-![Favoriler](.\egzersiz-rehberi-uygulamasi\src\assets\screenshots\Favorites.jpg)
