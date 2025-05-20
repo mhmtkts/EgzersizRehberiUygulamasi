@@ -73,7 +73,7 @@ egzersiz-rehberi-uygulamasi/
 
 ## 📱 Ekran Görüntüleri
 
-![Ana Sayfa](\src\assets\screenshots\HomePage.jpg)
-![Egzersizler Sayfası](\src\assets\screenshots\Exercises.jpg)
-![Egzersiz Detay](\src\assets\screenshots\ExerciseDetail.jpg)
-!Favoriler
+![Ana Sayfa](\egzersiz-rehberi-uygulamasi\src\assets\screenshots\HomePage.jpg)
+![Egzersizler Sayfası](\egzersiz-rehberi-uygulamasi\src\assets\screenshots\Exercises.jpg)
+![Egzersiz Detay](\egzersiz-rehberi-uygulamasi\src\assets\screenshots\ExerciseDetail.jpg)
+![Favoriler](\egzersiz-rehberi-uygulamasi\src\assets\screenshots\Favorites.jpg)
