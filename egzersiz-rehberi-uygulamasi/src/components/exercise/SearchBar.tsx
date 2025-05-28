@@ -27,7 +27,6 @@ const SearchBar = ({ onSearch, initialValue = "", placeholder = "Ara..." }) => {
               type="submit" 
               disabled={isSubmitting}
               className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-blue-600"
-              style={{ transform: 'translateY(-50%)', top: '50%' }}
             >
               🔍
             </button>
