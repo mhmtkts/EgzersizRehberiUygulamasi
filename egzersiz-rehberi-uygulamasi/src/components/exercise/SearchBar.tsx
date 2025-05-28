@@ -7,7 +7,7 @@ const SearchSchema = Yup.object().shape({
     .required('Arama terimi gereklidir')
 });
 
-const SearchBar = ({ onSearch, initialValue = "", placeholder = "Ara..." }) => {
+const SearchBar = ({ onSearch, initialValue = "", placeholder = "Ara..." }: { onSearch: (searchTerm: string) => void, initialValue?: string, placeholder?: string }) => {
   return (
     <Formik
       initialValues={{ search: initialValue }}

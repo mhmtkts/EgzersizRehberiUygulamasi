@@ -59,9 +59,9 @@ const ExerciseList: React.FC<ExerciseListProps> = ({
     if (locationKey !== location.search) {
       setLocationKey(location.search);
       
-      const newUrlBodyPart = searchParams.get("bodyPart") || "";
-      const newUrlEquipment = searchParams.get("equipment") || "";
-      const newUrlTarget = searchParams.get("target") || "";
+      //const newUrlBodyPart = searchParams.get("bodyPart") || "";
+      //const newUrlEquipment = searchParams.get("equipment") || "";
+      //const newUrlTarget = searchParams.get("target") || "";
       const newUrlSearch = searchParams.get("search") || "";
       
       setSearchTerm(newUrlSearch);
@@ -101,6 +101,7 @@ const ExerciseList: React.FC<ExerciseListProps> = ({
   } = useInfiniteQuery({
     queryKey: ['exercises', searchTerm, bodyPart, target, equipment, locationKey],
     queryFn: fetchExercises,
+    initialPageParam: 0,
     getNextPageParam: (lastPage, allPages) => {
       return lastPage.length === 0 ? undefined : allPages.length * PAGE_SIZE;
     },
@@ -200,7 +201,7 @@ const ExerciseList: React.FC<ExerciseListProps> = ({
   };
 
   const displayTitle = generateTitle();
-  const isLoading = status === 'loading' || initialLoading;
+  const isLoading = status === 'pending' || initialLoading;
   const isError = status === 'error';
 
   return (

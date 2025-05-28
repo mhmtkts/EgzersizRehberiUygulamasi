@@ -1,4 +1,4 @@
-import {React, useEffect} from "react";
+import {type FC , useEffect} from "react";
 import { useParams, useNavigate, } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { useFavorites } from '../hooks/useFavorites';
@@ -141,7 +141,7 @@ const getTargetMuscles = (exercise: Exercise): string[] => {
   return [primaryMuscle.charAt(0).toUpperCase() + primaryMuscle.slice(1), ...muscleList.slice(0, 3)];
 };
 
-const ExerciseDetailPage: React.FC = () => {
+const ExerciseDetailPage: FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { addFavorite, removeFavorite, isFavorite } = useFavorites();
